@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+models/
+_asr_jobs/
+_staging/
+cases/
+*.sqlite*
+*.wav
+*.log
+writer.lock
+.env
+*.bundle

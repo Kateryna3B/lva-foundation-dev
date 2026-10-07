@@ -1,0 +1,7 @@
+{
+  "device": "cuda",
+  "language": "auto",
+  "dll_dirs": [],
+  "engine": "whisperx",
+  "whisperx_python": "C:/WhisperX/venv/Scripts/python.exe"
+}

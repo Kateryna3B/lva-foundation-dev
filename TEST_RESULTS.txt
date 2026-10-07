@@ -1,0 +1,64 @@
+Foundation 0.2.4. Linux synthetic/headless tests. Actual Windows GUI and WhisperX not run.
+test_archive_exports_and_duplicate_reuse (test_asr.ASRControllerTests.test_archive_exports_and_duplicate_reuse) ... ok
+test_cancel_before_work (test_asr.ASRControllerTests.test_cancel_before_work) ... ok
+test_checkpoint_corruption_blocks (test_asr.ASRControllerTests.test_checkpoint_corruption_blocks) ... ok
+test_different_device_is_new_run (test_asr.ASRControllerTests.test_different_device_is_new_run) ... ok
+test_engine_failure_without_silent_cpu_switch (test_asr.ASRControllerTests.test_engine_failure_without_silent_cpu_switch) ... ok
+test_interrupted_second_channel_reuses_first (test_asr.ASRControllerTests.test_interrupted_second_channel_reuses_first) ... ok
+test_invalid_engine_times_never_archive (test_asr.ASRControllerTests.test_invalid_engine_times_never_archive) ... ok
+test_journal_recovery_after_asr_prepared (test_asr.ASRControllerTests.test_journal_recovery_after_asr_prepared) ... ok
+test_model_corruption_blocks_before_engine (test_asr.ASRControllerTests.test_model_corruption_blocks_before_engine) ... ok
+test_completion_stops_indicator_and_unlocks_start (test_asr_ui.ASRUIStateTests.test_completion_stops_indicator_and_unlocks_start) ... ok
+test_error_stops_indicator (test_asr_ui.ASRUIStateTests.test_error_stops_indicator) ... ok
+test_full_file_disables_time_fields (test_asr_ui.ASRUIStateTests.test_full_file_disables_time_fields) ... ok
+test_repeated_process_heartbeat_does_not_reset_stage_timer (test_asr_ui.ASRUIStateTests.test_repeated_process_heartbeat_does_not_reset_stage_timer) ... ok
+test_alias_error_identifies_requester_cell (test_foundation.FoundationTests.test_alias_error_identifies_requester_cell) ... ok
+test_alias_error_identifies_respondent_character (test_foundation.FoundationTests.test_alias_error_identifies_respondent_character) ... ok
+test_bad_boundaries (test_foundation.FoundationTests.test_bad_boundaries) ... ok
+test_corruption_blocks (test_foundation.FoundationTests.test_corruption_blocks) ... ok
+test_csv_raw_missing_negative_and_import (test_foundation.FoundationTests.test_csv_raw_missing_negative_and_import) ... ok
+test_dst_ambiguity_and_gap (test_foundation.FoundationTests.test_dst_ambiguity_and_gap) ... ok
+test_duplicate_and_alias_identity (test_foundation.FoundationTests.test_duplicate_and_alias_identity) ... ok
+test_duration_rules (test_foundation.FoundationTests.test_duration_rules) ... ok
+test_exact_channels_formats (test_foundation.FoundationTests.test_exact_channels_formats) ... ok
+test_extensible_pcm_channel (test_foundation.FoundationTests.test_extensible_pcm_channel) ... ok
+test_form_native_template (test_foundation.FoundationTests.test_form_native_template) ... ok
+test_mixed_and_long_routes_block (test_foundation.FoundationTests.test_mixed_and_long_routes_block) ... ok
+test_parts_and_backup_restore (test_foundation.FoundationTests.test_parts_and_backup_restore) ... ok
+test_recovery_at_three_phases (test_foundation.FoundationTests.test_recovery_at_three_phases) ... ok
+test_three_part_payload_reassembles (test_foundation.FoundationTests.test_three_part_payload_reassembles) ... ok
+test_timezone_database_offline (test_foundation.FoundationTests.test_timezone_database_offline) ... ok
+test_truncated_rejected (test_foundation.FoundationTests.test_truncated_rejected) ... ok
+test_valid_visible_alias_and_missing_alias (test_foundation.FoundationTests.test_valid_visible_alias_and_missing_alias) ... ok
+test_writer_exclusion (test_foundation.FoundationTests.test_writer_exclusion) ... ok
+test_wrong_csv_schema (test_foundation.FoundationTests.test_wrong_csv_schema) ... ok
+test_backup_success_missing_and_corrupt_without_mutation (test_time_and_backup.IntegratedTimeBackupTests.test_backup_success_missing_and_corrupt_without_mutation) ... ok
+test_incomplete_and_unsafe_backup_rejected (test_time_and_backup.IntegratedTimeBackupTests.test_incomplete_and_unsafe_backup_rejected) ... ok
+test_legacy_frame_metadata_supported (test_time_and_backup.IntegratedTimeBackupTests.test_legacy_frame_metadata_supported) ... ok
+test_time_parts_and_unchanged_legacy_parts (test_time_and_backup.IntegratedTimeBackupTests.test_time_parts_and_unchanged_legacy_parts) ... ok
+test_exact_end_and_one_part (test_time_and_backup.TimeInputTests.test_exact_end_and_one_part) ... ok
+test_frame_collapse_blocked (test_time_and_backup.TimeInputTests.test_frame_collapse_blocked) ... ok
+test_invalid_time_and_boundaries (test_time_and_backup.TimeInputTests.test_invalid_time_and_boundaries) ... ok
+test_notation_and_rounding (test_time_and_backup.TimeInputTests.test_notation_and_rounding) ... ok
+test_real_pilot_boundary_and_separator (test_time_and_backup.TimeInputTests.test_real_pilot_boundary_and_separator) ... ok
+test_actual_alignment_failure_preserves_asr_input (test_whisperx.AlignmentAdapterTests.test_actual_alignment_failure_preserves_asr_input) ... ok
+test_alignment_does_not_modify_raw_asr_and_records_provenance (test_whisperx.AlignmentAdapterTests.test_alignment_does_not_modify_raw_asr_and_records_provenance) ... ok
+test_anomalies_are_flagged_without_changing_times (test_whisperx.AlignmentAdapterTests.test_anomalies_are_flagged_without_changing_times) ... ok
+test_empty_channel_skips_alignment_with_explicit_status (test_whisperx.AlignmentAdapterTests.test_empty_channel_skips_alignment_with_explicit_status) ... ok
+test_low_score_and_window_edge_use_original_offset (test_whisperx.AlignmentAdapterTests.test_low_score_and_window_edge_use_original_offset) ... ok
+test_normal_word_has_no_specific_warning (test_whisperx.AlignmentAdapterTests.test_normal_word_has_no_specific_warning) ... ok
+test_normalize_original_offset_and_missing_word_time (test_whisperx.AlignmentAdapterTests.test_normalize_original_offset_and_missing_word_time) ... ok
+test_alignment_failure_visible_in_all_exports (test_whisperx.WhisperXIntegrationTests.test_alignment_failure_visible_in_all_exports) ... ok
+test_alignment_revision_retains_previous_archive (test_whisperx.WhisperXIntegrationTests.test_alignment_revision_retains_previous_archive) ... ok
+test_alignment_time_label_cannot_claim_success_after_failure (test_whisperx.WhisperXIntegrationTests.test_alignment_time_label_cannot_claim_success_after_failure) ... ok
+test_cached_weights_descriptor_and_vad_integrity (test_whisperx.WhisperXIntegrationTests.test_cached_weights_descriptor_and_vad_integrity) ... ok
+test_environment_change_blocks_reference (test_whisperx.WhisperXIntegrationTests.test_environment_change_blocks_reference) ... ok
+test_required_alignment_blocks_archive (test_whisperx.WhisperXIntegrationTests.test_required_alignment_blocks_archive) ... ok
+test_segment_outside_short_window_is_rejected (test_whisperx.WhisperXIntegrationTests.test_segment_outside_short_window_is_rejected) ... ok
+test_short_interval_outside_audio_blocks_engine (test_whisperx.WhisperXIntegrationTests.test_short_interval_outside_audio_blocks_engine) ... ok
+test_short_test_keeps_original_time_and_distinct_full_run (test_whisperx.WhisperXIntegrationTests.test_short_test_keeps_original_time_and_distinct_full_run) ... ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 0.399s
+
+OK
